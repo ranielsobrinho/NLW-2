@@ -33,7 +33,7 @@ body{
 }
 
 body{
-    background-color: var(--color-background);
+    background-color: var(--color-primary);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ input,
 button,
 textarea{
     font: 500 1.6rem Poppins;
-    color: var(--color-text-base)
+    color: var(--color-primary-light)
 }
 
 #container{
