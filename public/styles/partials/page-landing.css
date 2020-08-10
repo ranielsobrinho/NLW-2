@@ -104,6 +104,7 @@
     }
     .logo-container h2{
         font-size: 5.6rem;
+        line-height: 6.8rem;
     }
     .hero-image{
         grid-area: image;
