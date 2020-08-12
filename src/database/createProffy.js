@@ -4,7 +4,7 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
         INSERT INTO proffys (
             name,
             avatar,
-            whatsapp
+            whatsapp,
             bio
         ) VALUES (
             "${proffyValue.name}",
@@ -21,7 +21,7 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
     const insertedClass = await db.run(`
         INSERT INTO classes (
             subject,
-            cost
+            cost,
             proffy_id
         ) VALUES (
             "${classValue.subject}",
