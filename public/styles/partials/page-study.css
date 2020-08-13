@@ -127,6 +127,12 @@
     background: var(--color-secondary-dark);
 }
 
+#page-study main .no-results {
+    max-width: 30rem;
+    margin: 12rem;
+    text-align:center;
+}
+
 @media (min-width: 700px){
     #page-study #container{
         max-width: 100vw;
@@ -199,5 +205,10 @@
 
     .teacher-item footer .button img{
         margin-right: 16px;
+    }
+
+    #page-study main .no-results {
+        max-width: 60rem;
+        text-align:center;
     }
 }
